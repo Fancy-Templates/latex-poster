@@ -1,4 +1,4 @@
-\ProvidesClass{uulm-cs-poster}[2022/07/19 non-official LaTeX poster done roughly in the design of the uulm]
+\ProvidesClass{poster}[2022/07/19 non-official LaTeX poster done roughly in the design of the uulm]
 
 % first of all, we define some switches
 % they control which packages to load and configure

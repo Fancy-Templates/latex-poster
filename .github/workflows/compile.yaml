@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout git repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         lfs: true
         submodules: true
@@ -20,7 +20,7 @@ jobs:
       run: |
         sudo apt install poppler-utils
     - name: 'Compile the document'
-      uses: 'xu-cheng/texlive-action/full@v1'
+      uses: 'xu-cheng/texlive-action/full@v2'
       with:
         run: |
           latexmk
